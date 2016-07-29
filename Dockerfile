@@ -1,4 +1,4 @@
-FROM slurmbase:latest
+FROM datadrivenhpc/slurmbase
 
 ADD scripts/start.sh /root/start.sh
 RUN chmod +x /root/start.sh
