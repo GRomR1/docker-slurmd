@@ -1,4 +1,3 @@
-#FROM datadrivenhpc/slurmbase
 FROM slurmbase:latest
 
 ADD scripts/start.sh /root/start.sh
