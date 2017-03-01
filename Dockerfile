@@ -1,6 +1,5 @@
-FROM datadrivenhpc/slurmbase
-
-MAINTAINER Ole Weidner <ole.weidner@ed.ac.uk>
+FROM gromr1/slurmbase
+MAINTAINER Ruslan Gainanov <gromrx1@gmail.com>
 
 ADD scripts/start.sh /root/start.sh
 RUN chmod +x /root/start.sh
